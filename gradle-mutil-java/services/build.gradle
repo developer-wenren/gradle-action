@@ -1,0 +1,7 @@
+
+group 'com.one.api'
+version '1.0-SNAPSHOT'
+dependencies {
+    compile project(':api')
+    compile project(':core')
+}
