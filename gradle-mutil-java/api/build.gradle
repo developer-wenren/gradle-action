@@ -2,3 +2,30 @@
 group 'com.one.api'
 version '1.0-SNAPSHOT'
 dependencies { compile project(':core') }
+
+task dist(type: Zip) {
+//    dependsOn spiJar
+    from 'src/dist'
+    into('libs') {
+//        from spiJar.archivePath
+        from configurations.runtime
+    }
+}
+
+artifacts {
+    archives dist
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+
+    test {
+        java {
+            srcDirs = ['src/test/java']
+        }
+    }
+}

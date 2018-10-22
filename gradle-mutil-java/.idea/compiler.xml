@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="aapi-shared_main" target="1.8" />
+      <module name="aapi-shared_test" target="1.8" />
+      <module name="aapi_main" target="1.8" />
+      <module name="aapi_test" target="1.8" />
+      <module name="api-shared_main" target="1.8" />
+      <module name="api-shared_test" target="1.8" />
+      <module name="gradle-mutil-java-api_main" target="1.8" />
+      <module name="gradle-mutil-java-api_test" target="1.8" />
+      <module name="gradle-mutil-java-shared_main" target="1.8" />
+      <module name="gradle-mutil-java-shared_test" target="1.8" />
+      <module name="services-api_main" target="1.8" />
+      <module name="services-api_test" target="1.8" />
+      <module name="services-shared_main" target="1.8" />
+      <module name="services-shared_test" target="1.8" />
+      <module name="share_main" target="1.8" />
+      <module name="share_test" target="1.8" />
+      <module name="webservice_main" target="1.8" />
+      <module name="webservice_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
